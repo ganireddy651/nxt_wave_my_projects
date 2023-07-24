@@ -1,0 +1,27 @@
+.navbar-container {
+  background-color: #f1f5f9;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logo {
+  height: 38px;
+}
+@media screen and (max-width: 576px) {
+  .navbar-container {
+    padding: 10px;
+  }
+  .logo {
+    display: none;
+  }
+  .mobile-only {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .mobile-only {
+    display: none;
+  }
+}
